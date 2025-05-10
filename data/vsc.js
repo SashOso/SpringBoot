@@ -3,7 +3,7 @@ const data=[
 {
 title:"Spring Initializr",
 img_src:"img/vsc/SpringInitializr.png",
-code:"https://start.spring.io/"
+link:"https://start.spring.io/"
 },
 
 {

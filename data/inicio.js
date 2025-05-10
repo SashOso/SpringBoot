@@ -32,12 +32,13 @@ server.error.include-stacktrace=never
 title:"pom.xml",
 img_src:"",
 code:
-`<!-- Swagger: http://localhost:8080/swagger-ui/index.html -->
+`<!-- Swagger -->
 <dependency>
     <groupId>org.springdoc</groupId>
     <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
     <version>2.5.0</version>
-</dependency>`
+</dependency>`,
+link:"http://localhost:8080/swagger-ui/index.html",
 },
 
 
