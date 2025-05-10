@@ -1,7 +1,7 @@
 const data=[
 
 {
-title:"Controller vasico",
+title:"Controller basico",
 img_src:"img/controller_1.jpg"
 },
 

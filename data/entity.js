@@ -1,7 +1,7 @@
 const data=[
 
 {
-title:"Basico",
+title:"Entity basico",
 img_src:"img/entity_basico.jpg"
 },
 
