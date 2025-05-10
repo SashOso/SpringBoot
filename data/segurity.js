@@ -1,5 +1,18 @@
 const data=[
 
+{
+title:"Controller",
+img_src:"",
+code:
+`@CrossOrigin(origins = "*", allowedHeaders = "*", exposedHeaders = "Authorization")
+@PreAuthorize("hasRole('ADMIN')")
+
+@GetMapping("")
+@PreAuthorize("hasRole('ADMIN')")
+public void ....
+`
+},
+
 
 {
 title:"application.properties",
@@ -15,6 +28,29 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 jwt.secret=0C/ZZj9OCW7Q74lUM200BayaFq6u12EKyps4NLFQNufowubX5nE1DQT8XRdwv0zUBp7Tns1yhYlwzUCm3maQkg==`
 },
 
+
+{
+title:"application.properties  para el frontend",
+img_src:"",
+code:
+`spring.application.name=api_simulacro
+spring.datasource.url=jdbc:postgresql://localhost:5432/db_ExamenFinal
+spring.datasource.username=postgres
+spring.datasource.password=admin
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=create-drop
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+#No envia el trace al usuario cuando hay error.
+server.error.include-stacktrace=never
+#spring.jackson.date-format=yyyy-dd-MM
+
+#https://bcrypt--generator-com.webpkgcache.com/doc/-/s/bcrypt-generator.com/
+#https://bcrypt-generator.com/
+ip.frontend=localhost:4200
+jwt.secret=0C/ZZj9OCW7Q74lUM200BayaFq6u12EKyps4NLFQNufowubX5nE1DQT8XRdwv0zUBp7Tns1yhYlwzUCm3maQkg==`
+},
 
 
 {
