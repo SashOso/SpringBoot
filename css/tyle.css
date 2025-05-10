@@ -102,6 +102,7 @@
         width: 100%;
         display: grid;
         gap: 20px;
+        height: max-content;
         .item{
             overflow: hidden;
             border: 10px;

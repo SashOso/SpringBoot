@@ -1,8 +1,8 @@
 const data=[
 
 {
-title:"Entity basico",
-img_src:"img/entity_basico.jpg"
+title:"Entidad básica",
+img_src:"img/entity/basico.jpg"
 },
 
 ]

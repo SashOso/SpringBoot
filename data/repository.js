@@ -1,8 +1,8 @@
 const data=[
 
 {
-title:"Repository basico",
-img_src:"img/repoitory_basico.jpg"
+title:"Repositorio vacío",
+img_src:"img/repository/vacio.jpg"
 },
 
 ]

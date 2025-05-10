@@ -1,13 +1,18 @@
 const data=[
 
 {
-title:"Service",
-img_src:"img/service_1.jpg"
+title:"Servicio Normal",
+img_src:"img/service/normal.jpg"
 },
 
 {
-title:"Implement",
-img_src:"img/service_implement.jpg"
+title:"Servicio dividido",
+img_src:"img/service/dividido_1.jpg"
+},
+
+{
+title:"Servicio dividido",
+img_src:"img/service/dividido_2.jpg"
 },
 
 ]
