@@ -2,12 +2,12 @@ const data=[
 
 {
 title:"Nuevo proyecto",
-img_src:"/img/nuevo_proyecto.jpg"
+img_src:"img/nuevo_proyecto.jpg"
 },
 
 {
 title:"Dependencias",
-img_src:"/img/dependencia_1.jpg"
+img_src:"img/dependencia_1.jpg"
 },
 
 {
